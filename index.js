@@ -27,7 +27,8 @@ app.use(cookieParser());
 
 const allowedOrigins = [
     "http://localhost:3000", 
-    "https://studynotion-green-kappa.vercel.app"
+    "https://studynotion-green-kappa.vercel.app",
+    "https://snfronted.vercel.app"
 ];
 
 app.use((req, res, next) => {
